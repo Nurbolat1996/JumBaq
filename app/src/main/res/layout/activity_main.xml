@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="kz.codemaker.www.jumbaq.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textViewJumbaq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="фдылвждлфыждлывыфдвлыфвжлыфдвл\nфдылвждлфыждлывыфдвлыфвжлыфдвл\nфдылвждлфыждлывыфдвлыфвжлыфдвл\nфдылвждлфыждлывыфдвлыфвжлыфдвл"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="166dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_letter1"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter2"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter3"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter4"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter5"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter6"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter7"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter8"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_letter9"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pop_up_close_background"
+            android:gravity="center_horizontal"
+            android:text="A"
+            android:textSize="26sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3"
+            app:cardBackgroundColor="@color/lightGreen"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutGetMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="150 тиын алу"
+                    android:textColor="#fffffe"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_video_library_black_24dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3"
+            app:cardBackgroundColor="#F97C2C"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    app:srcCompat="@drawable/coin" />
+
+                <TextView
+                    android:id="@+id/tv_coins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="12312312"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonTopOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonTopTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonTopThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue"/>
+
+        <Button
+            android:id="@+id/buttonTopFour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonTopFive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonTopSix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonBottomOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonBottomTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonBottomThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonBottomFour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonBottomFive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/buttonBottomSix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.1"
+            android:text="Q"
+            android:textColor="@color/blue" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/shape_to_status"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:text="Әріпті ашу үшін үстіне бас"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <ImageView
+        android:id="@+id/imageViewSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/volume_off" />
+
+
+</android.support.constraint.ConstraintLayout>

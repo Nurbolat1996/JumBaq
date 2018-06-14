@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802806546663",
+    "firebase_url": "https://jumbaq-f90e0.firebaseio.com",
+    "project_id": "jumbaq-f90e0",
+    "storage_bucket": "jumbaq-f90e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802806546663:android:05609888410a9098",
+        "android_client_info": {
+          "package_name": "kz.codemaker.www.jumbaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802806546663-ojk8rpmjaecu9i4pb5r5i40qjna5ao4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.codemaker.www.jumbaq",
+            "certificate_hash": "a935b14389c2392bebc440e76a581e3ce8b47412"
+          }
+        },
+        {
+          "client_id": "802806546663-dijala5sug0a4nl9n2r6v0h5fbgvu5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Nsm8rxbjuSGxaz4xGO4mbM0c0n_iUSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802806546663-dijala5sug0a4nl9n2r6v0h5fbgvu5ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
